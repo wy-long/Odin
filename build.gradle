@@ -30,4 +30,6 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' //Thymeleaf组件(动态页面)
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis' //Redis
 }
